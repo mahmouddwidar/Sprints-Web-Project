@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B Shop - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/images/icon.ico" type="image/x-icon">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=WDXL+Lubrifont+TC&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="./index.html">
+                        <h1>F<span
+                                style="font-family: 'Playfair Display', serif; color: var(--primary-color);">&</span>B
+                            Shop</h1>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="mobile-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-section">
+            <div class="container">
+                <h1><span class="highlight">Our</span> Products</h1>
+                <p class="title-desc">Discover our selection of premium food and beverage products</p>
+                <div class="product-filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Beverages</button>
+                    <button class="filter-btn">Food</button>
+                    <button class="filter-btn">Snacks</button>
+                </div>
+                <div class="product-grid">
+                    <!-- Beverages -->
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product1.jpeg" alt="Coffee"></div>
+                        <h3>Premium Coffee</h3>
+                        <p class="description">A smooth, rich blend of organic coffee beans with notes of chocolate and
+                            caramel.</p>
+                        <p class="price">$4.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product2.jpg" alt="Tea"></div>
+                        <h3>Organic Tea</h3>
+                        <p class="description">Pure, raw honey harvested from sustainable apiaries, perfect for tea,
+                            baking,
+                            or straight from the jar.</p>
+                        <p class="price">$3.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product4.jpg" alt="Smoothie"></div>
+                        <h3>Fresh Smoothie</h3>
+                        <p class="description">A refreshing blend of seasonal fruits and organic yogurt.</p>
+                        <p class="price">$5.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+
+                    <!-- Food -->
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product5.jpg" alt="Sandwich"></div>
+                        <h3>Club Sandwich</h3>
+                        <p class="description">A classic club sandwich made with fresh ingredients and served with a
+                            side of
+                            chips.</p>
+                        <p class="price">$7.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product6.jpg" alt="Salad"></div>
+                        <h3>Garden Salad</h3>
+                        <p class="description">A mix of fresh greens, cherry tomatoes, and cucumbers, served with a
+                            light vinaigrette.</p>
+                        <p class="price">$6.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product7.jpg" alt="Pasta"></div>
+                        <h3>Pasta Primavera</h3>
+                        <p class="description">A delightful pasta dish made with fresh vegetables and a light olive oil
+                            sauce.</p>
+                        <p class="price">$8.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+
+                    <!-- Snacks -->
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product8.jpg" alt="Cookies"></div>
+                        <h3>Fresh Cookies</h3>
+                        <p class="description">Soft and chewy cookies made with organic ingredients.</p>
+                        <p class="price">$2.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product3.jpg" alt="Bread"></div>
+                        <h3>Artisan Bread</h3>
+                        <p class="description">Handcrafted sourdough bread made with traditional fermentation methods
+                            and
+                            organic flour.</p>
+                        <p class="price">$5.99</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                    <div class="product-card">
+                        <div style="overflow: hidden;"><img src="assets/images/products/product9.jpg" alt="Croissant"></div>
+                        <h3>Butter Croissant</h3>
+                        <p class="description">Flaky and buttery croissants made with high-quality ingredients.</p>
+                        <p class="price">$2.49</p>
+                        <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <a href="mailto:info@fnbshop.com">Email: info@fnbshop.com</a>
+                    <a href="tel:+15551234567">Phone: (555) 123-4567</a>
+                    <p>Address: 123 Food Street, Beverage City</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 F&B Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
